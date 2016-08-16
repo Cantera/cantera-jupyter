@@ -21,14 +21,14 @@ notebooks. To see the rendered notebooks, browse the directories above or visit 
     
 ## Frequently Asked Questions
 
-**How do I use Cantera with Python**
+**How do I use Cantera with Python?**
 
-To learn how to use Cantera with Python, click [here](http://cantera.github.io/docs/sphinx/html/cython/index.html). For more advanced uses of Cantera, the complete documentation can be found [here](http://cantera.github.io/docs/sphinx/html/index.html)
+To learn how to use Cantera with Python, click [here](http://cantera.github.io/docs/sphinx/html/cython/index.html). For more advanced uses of Cantera, the complete documentation can be found [here](http://cantera.github.io/docs/sphinx/html/index.html).
 
-**Can I forgo installing Cantera locally and just use Cantera in the cloud every time**
+**Can I forgo installing Cantera locally and just use Cantera in the cloud every time?**
 
 The problem with using Cantera with Binder is that there is no way for you to save your work. You can upload/download files in a session, but once the session is over (you close your browser window), you lose all your work. You thus cannot save your modified iPython notebooks. 
 
 **I still can't figure something out. Who do I ask?**
 
-If you have more questions, need help with something, or have any suggestions, please visit [Cantera Google Groups Page](https://groups.google.com/forum/#!forum/cantera-users) and create a post
+If you have more questions, need help with something, or have any suggestions, please visit the [Cantera Google Groups Page](https://groups.google.com/forum/#!forum/cantera-users) and create a post.

@@ -9,7 +9,6 @@ notebooks. To see the rendered notebooks, browse the directories above or visit 
 [![Binder](http://mybinder.org/badge.svg)](http://mybinder.org:/repo/cantera/cantera-jupyter)
 
 ## Examples
-***
 
 * Basic Thermodynamics Calculations
     * [Fuel heating value calculator](https://github.com/Cantera/cantera-jupyter/blob/master/thermo/heating_value.ipynb)
@@ -21,7 +20,6 @@ notebooks. To see the rendered notebooks, browse the directories above or visit 
     * [Counter-flow twin premixed flame simulator](https://github.com/Cantera/cantera-jupyter/blob/master/flames/twin_premixed_flame_axisymmetric.ipynb)
     
 ## Frequently Asked Questions
-***
 
 **How do I use Cantera with Python**
 

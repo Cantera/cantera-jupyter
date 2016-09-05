@@ -28,8 +28,9 @@ there is no installation required.
   * [Counter-flow twin premixed flame simulator](https://github.com/Cantera/cantera-jupyter/blob/master/flames/twin_premixed_flame_axisymmetric.ipynb)
 
 * Reactor Models
-  * [Batch Reactors : Illustration of Ignition Delay Calculation](https://github.com/Cantera/cantera-jupyter/blob/master/reactors/batch_reactor_ignition_delay_NTC.ipynb)
-
+  * [Batch Reactors: Illustration of ignition delay calculation](https://github.com/Cantera/cantera-jupyter/blob/master/reactors/batch_reactor_ignition_delay_NTC.ipynb)
+  * [Continuous Reactors: Simulations at a given residence time ](https://github.com/Cantera/cantera-jupyter/blob/master/reactors/stirred_reactor.ipynb
+  
 ## Frequently Asked Questions
 
 **How do I use Cantera with Python?**

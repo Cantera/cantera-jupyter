@@ -19,6 +19,20 @@ there is no installation required.
 
 ## Examples
 
+<table align="center">
+
+<tr align="center">
+<td> <img src="flames/images/flameSpeed.png" width=250px> <br> Freely Propagating Flame  </td>
+<td> <img src="flames/images/twinPremixedFlame.png" width=250px> <br> Strained Flames </td>
+</tr>
+
+<tr align="center">
+<td> <img src="reactors/images/stirredReactorCartoon.png" width=250px> <br> Continuous Stirred Tank Reactor </td>
+<td> <img src="reactors/images/batchReactor.png" width=175px> <br> Batch Reactor </td>
+</tr>
+
+</table>
+
 * Basic Thermodynamics Calculations
   * [Fuel heating value calculator](https://github.com/Cantera/cantera-jupyter/blob/master/thermo/heating_value.ipynb)
   * [Equilibrium flame temperature calculator](https://github.com/Cantera/cantera-jupyter/blob/master/thermo/flame_temperature.ipynb)
@@ -28,8 +42,9 @@ there is no installation required.
   * [Counter-flow twin premixed flame simulator](https://github.com/Cantera/cantera-jupyter/blob/master/flames/twin_premixed_flame_axisymmetric.ipynb)
 
 * Reactor Models
-  * [Batch Reactors : Illustration of Ignition Delay Calculation](https://github.com/Cantera/cantera-jupyter/blob/master/reactors/batch_reactor_ignition_delay_NTC.ipynb)
-
+  * [Batch Reactors: Illustration of ignition delay calculation](https://github.com/Cantera/cantera-jupyter/blob/master/reactors/batch_reactor_ignition_delay_NTC.ipynb)
+  * [Continuous Reactors: Simulations at a given residence time](https://github.com/Cantera/cantera-jupyter/blob/master/reactors/stirred_reactor.ipynb)
+  
 ## Frequently Asked Questions
 
 **How do I use Cantera with Python?**

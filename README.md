@@ -6,7 +6,7 @@ links in the list of examples below.
 
 **Existing Cantera users**: If you have [Cantera](http://cantera.org) and
 [Jupyter](http://jupyter.org) installed on your local machine, simply download
-any iPython notebook and you should be able to run it.
+any Jupyter notebook and you should be able to run it.
 
 **New Cantera Users**: If you don't have an exiting Cantera installation, you
 can either
@@ -60,7 +60,7 @@ time?**
 The problem with using Cantera with Binder is that there is no way for you to
 save your work. You can upload/download files in a session, but once the session
 is over (you close your browser window), you lose all your work. You thus cannot
-save your modified iPython notebooks.
+save your modified Jupyter notebooks.
 
 **I still can't figure something out. Who do I ask?**
 

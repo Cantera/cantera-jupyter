@@ -1,16 +1,16 @@
 # cantera-jupyter
 
-[Cantera](http://cantera.org) examples in the form of [Jupyter](http://jupyter.org)
+[Cantera](https://cantera.org) examples in the form of [Jupyter](http://jupyter.org)
 notebooks. To see the rendered notebooks, browse the directories above or visit the
 links in the list of examples below.
 
-**Existing Cantera users**: If you have [Cantera](http://cantera.org) and
+**Existing Cantera users**: If you have [Cantera](https://cantera.org) and
 [Jupyter](http://jupyter.org) installed on your local machine, simply download
 any Jupyter notebook and you should be able to run it.
 
 **New Cantera Users**: If you don't have an exiting Cantera installation, you
 can either
-[download and install Cantera](http://cantera.github.io/docs/sphinx/html/install.html)
+[download and install Cantera](https://cantera.org/install/index.html)
 or give Cantera a test drive in the cloud. Click on the Binder link below to
 launch an interactive environment where you can run these examples. For this,
 there is no installation required.
@@ -49,10 +49,10 @@ there is no installation required.
 
 **How do I use Cantera with Python?**
 
-To learn how to use Cantera with Python, click
-[here](http://cantera.github.io/docs/sphinx/html/cython/index.html). For more
+An introduction to the Cantera Python interface is available
+[here](https://cantera.org/tutorials/python-tutorial.html). For more
 advanced uses of Cantera, the complete documentation can be found
-[here](http://cantera.github.io/docs/sphinx/html/index.html).
+[here](https://cantera.org/documentation/index.html).
 
 **Can I forgo installing Cantera locally and just use Cantera in the cloud every
 time?**

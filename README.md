@@ -44,7 +44,13 @@ there is no installation required.
 * Reactor Models
   * [Batch Reactors: Illustration of ignition delay calculation](https://github.com/Cantera/cantera-jupyter/blob/master/reactors/batch_reactor_ignition_delay_NTC.ipynb)
   * [Continuous Reactors: Simulations at a given residence time](https://github.com/Cantera/cantera-jupyter/blob/master/reactors/stirred_reactor.ipynb)
-  
+
+## Code of Conduct
+
+This repository follows the same code of conduct as the main Cantera repository.
+Cantera adheres to a [code of conduct](https://github.com/Cantera/cantera/blob/master/CODE_OF_CONDUCT.md)
+adapted from the [Contributor Covenant code of conduct](https://contributor-covenant.org/).
+
 ## Frequently Asked Questions
 
 **How do I use Cantera with Python?**

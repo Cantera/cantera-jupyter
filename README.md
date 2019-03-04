@@ -101,7 +101,7 @@ conda activate spam
 ```
 2. Install the notebook package
 ```
-    conda install notebook
+conda install notebook
 ```
 3.  Run Jupter notebook
 ```

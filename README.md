@@ -2,20 +2,13 @@
 
 [Cantera](https://cantera.org) examples in the form of [Jupyter](http://jupyter.org)
 notebooks. To see the rendered notebooks, browse the directories above or visit the
-links in the list of examples below.
+links in the list of examples below. If you want to execute the examples on your
+own computer, please see the installation instructions [below](#installation-instructions).
+If you would only like to run the examples in the cloud, click the MyBinder
+link below (note that your changes on MyBinder won't be saved unless you download
+the changed files from there).
 
-**Existing Cantera users**: If you have [Cantera](https://cantera.org) and
-[Jupyter](http://jupyter.org) installed on your local machine, simply download
-any Jupyter notebook and you should be able to run it.
-
-**New Cantera Users**: If you don't have an exiting Cantera installation, you
-can either
-[download and install Cantera](https://cantera.org/install/index.html)
-or give Cantera a test drive in the cloud. Click on the Binder link below to
-launch an interactive environment where you can run these examples. For this,
-there is no installation required.
-
-[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org:/repo/cantera/cantera-jupyter)
+[![MyBinder](https://mybinder.org/badge.svg)](https://mybinder.org:/repo/cantera/cantera-jupyter)
 
 ## Examples
 
@@ -53,30 +46,52 @@ there is no installation required.
 * Electrochemistry
   * [Open circuit voltage calculations in a Lithium ion battery](https://github.com/Cantera/cantera-jupyter/blob/master/electrochemistry/lithium_ion_battery.ipynb)
 
-## Installation Instructions (for New Users)
+## Installation Instructions
 
-### 1. Install Anaconda Distribution
+### 1. Install Cantera
 
-1.   Head on to /www.anaconda.com/distribution/ and download the Anaconda distrubtion according to your OS
+If you don't already have Cantera installed, refer to the instructions on
+the [Cantera website](https://cantera.org/install/index.html).
 
-2.  Install it on your machine.
+### 2. Install Jupyter Notebook
 
-### 2. Setting up the conda environment
+If you used Conda to install Cantera (the recommended method), you will
+need to install the Jupyter Notebook into the same environment where you
+installed Cantera.
 
-* Kindly refer to the step by step guide mentioned here:
-  https://cantera.org/install/conda-install.html
-### 3. Notebook Setup
-1. Activate the environment having cantera package
+1. Activate the environment with the Cantera package (called `spam` here):
+
+   ```shell
+   conda activate spam
+   ```
+
+2. Install Jupyter Notebook into that environment
+
+   ```shell
+   conda install notebook
+   ```
+
+3. Run the Jupyter notebook
+
+   ```shell
+   jupyter notebook
+   ```
+
+Otherwise, use `pip` to install the Jupyter Notebook
+
+```shell
+python -m pip install notebook
 ```
-conda activate spam
-```
-2. Install the notebook package
-```
-conda install notebook
-```
-3.  Run Jupter notebook
-```
-jupyter notebook
+
+### 3. Download the Cantera Jupyter Examples
+
+**Option 1:** Download the zip file from [GitHub](https://github.com/Cantera/cantera-jupyter/archive/master.zip)
+and extract it to a convenient location on your computer.
+
+**Option 2:** Use Git to clone this repository to a convenient location on your computer
+
+```shell
+git clone https://github.com/Cantera/cantera-jupyter.git
 ```
 
 ## Code of Conduct

@@ -63,37 +63,8 @@ there is no installation required.
 
 ### 2. Setting up the conda environment
 
-* Option 1: Create a new environment for Cantera
-
-If you have just installed Anaconda or Miniconda, the following instructions will create a conda environment where you can use Cantera. For this example, the environment is named spam. From the command line (or the Anaconda Prompt on Windows), run:
-
-    conda create --name spam --channel cantera cantera ipython matplotlib
-This will create an environment with Cantera, IPython, Matplotlib, and all their dependencies installed. Although Conda can install a large set of packages by default, it is also possible to install packages such as Cantera that are maintained independently. These additional channels from which packages may be obtained are specified by adding the --channel option in the install or create commands. In this case, we want to install Cantera from the cantera channel, so we add --channel cantera and to tell Conda to look at the cantera channel in addition to the default channels.
-
-To use the scripts and modules installed in the spam environment, you must activate it it by running:
-
-    conda activate spam
-
-* Option 2: Install Cantera in an existing environment
-
-First, activate your environment (assumed here to be named baked_beans; if you’ve forgotten the name of the conda environment you wanted to use, the command conda env list can help). This is done by running:
-
-    conda activate baked_beans
-Then, install Cantera in the active enironment by running:
-
-    conda install --channel cantera cantera
-
-* Option 3: Install the development version of Cantera
-
-To install a recent development snapshot (i.e., an alpha or beta version) of Cantera in an existing environment, activate the environment and then run:
-
-    conda install --channel cantera/label/dev cantera
-If you later want to revert back to the stable version, first remove and then reinstall Cantera:
-
-    conda remove cantera
-
-    conda install --channel cantera cantera
-
+* Kindly refer to the step by step guide mentioned here:
+  https://cantera.org/install/conda-install.html
 ### 3. Notebook Setup
 1. Activate the environment having cantera package
 ```

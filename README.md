@@ -31,6 +31,10 @@ there is no installation required.
 <td> <img src="reactors/images/batchReactor.png" width=175px> <br> Batch Reactor </td>
 </tr>
 
+<tr align="center">
+<td> <img src="electrochemistry/images/SingleParticleBattery.png" width=250px> <br> Li+ Battery OCV Calculation</td>
+</tr>
+
 </table>
 
 * Basic Thermodynamics Calculations
@@ -43,7 +47,11 @@ there is no installation required.
 
 * Reactor Models
   * [Batch Reactors: Illustration of ignition delay calculation](https://github.com/Cantera/cantera-jupyter/blob/master/reactors/batch_reactor_ignition_delay_NTC.ipynb)
+    * [Batch reactors with non-ideal gases](https://github.com/Cantera/cantera-jupyter/blob/master/reactors/NonIdealShockTube.ipynb)
   * [Continuous Reactors: Simulations at a given residence time](https://github.com/Cantera/cantera-jupyter/blob/master/reactors/stirred_reactor.ipynb)
+
+* Electrochemistry
+  * [Open circuit voltage calculations in a Lithium ion battery](https://github.com/Cantera/cantera-jupyter/blob/master/electrochemistry/lithium_ion_battery.ipynb)
 
 ## Code of Conduct
 

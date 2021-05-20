@@ -1,8 +1,5 @@
 description: |-
-  CO2 phases based on the equation of state 
-
-cantera-version: 2.5.0a3
-date: Wed, 10 Jul 2020 11:38:00 +0000
+  CO2 phases based on the equation of state
 
 units: {length: cm, time: s, quantity: mol, activation-energy: cal/mol}
 
@@ -12,7 +9,7 @@ phases:
   elements: [O, C]
   species: [CO2]
   kinetics: gas
-  transport: mixture-averaged
+  reactions: none
   state: {T: 300.0, P: 1 atm}
 
 - name: CO2-RK
@@ -20,7 +17,7 @@ phases:
   elements: [O, C]
   species: [{rk-species: [CO2]}]
   kinetics: gas
-  transport: mixture-averaged
+  reactions: none
   state: {T: 300.0, P: 1 atm}
 
 species:
@@ -35,14 +32,7 @@ species:
     - [3.85746029, 0.00441437026, -2.21481404e-06, 5.23490188e-10, -4.72084164e-14,
       -48759.166, 2.27163806]
     note: L7/88
-  transport:
-    model: gas
-    geometry: linear
-    well-depth: 244.0
-    diameter: 3.763
-    polarizability: 2.65
-    rotational-relaxation: 2.1
-  
+
 rk-species:
 - name: CO2
   composition: {C: 1, O: 2}
@@ -59,4 +49,3 @@ rk-species:
     units: {length: cm, pressure: bar, quantity: mol}
     a: [7.54e7, -4.13e4]
     b: 27.80
-    

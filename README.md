@@ -43,6 +43,7 @@ there is no installation required.
 
 * Flame Simulations
   * [Flame speed calculator with sensitivity analysis](https://github.com/Cantera/cantera-jupyter/blob/master/flames/flame_speed_with_sensitivity_analysis.ipynb)
+  * [Flame speed calculator with grid convergence analysis](https://github.com/Cantera/cantera-jupyter/blob/master/flames/flame_speed_with_convergence_analysis.ipynb)
   * [Counter-flow twin premixed flame simulator](https://github.com/Cantera/cantera-jupyter/blob/master/flames/twin_premixed_flame_axisymmetric.ipynb)
 
 * Reactor Models

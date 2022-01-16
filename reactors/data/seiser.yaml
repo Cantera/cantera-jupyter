@@ -4928,12 +4928,14 @@ reactions:
   rate-constant: {A: 5.917e+11, b: 0.64, Ea: 1.229995e+04}
 - equation: hocho + M => co + h2o + M  # Reaction 985
   type: three-body
+  efficiencies: {oh: 0.0, h: 0.0}
   rate-constant: {A: 2.3e+13, b: 0.0, Ea: 5.0e+04}
 - equation: co + h2o + M => hocho + M  # Reaction 986
   type: three-body
   rate-constant: {A: 1.422e+10, b: 0.46, Ea: 4.684011e+04}
 - equation: hocho + M => co2 + h2 + M  # Reaction 987
   type: three-body
+  efficiencies: {h: 0.0}
   rate-constant: {A: 1.5e+16, b: 0.0, Ea: 5.7e+04}
 - equation: co2 + h2 + M => hocho + M  # Reaction 988
   type: three-body

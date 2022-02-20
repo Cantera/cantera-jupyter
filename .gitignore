@@ -4,3 +4,4 @@
 .vscode/
 *.nbconvert.ipynb
 reactors/reaction_paths.*
+input/*.yaml

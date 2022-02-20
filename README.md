@@ -1,6 +1,6 @@
 # cantera-jupyter
 
-[Cantera](https://cantera.org) examples in the form of [Jupyter](http://jupyter.org)
+[Cantera](https://cantera.org) examples in the form of [Jupyter](https://jupyter.org)
 notebooks. To see the rendered notebooks, browse the directories above or visit the
 links in the list of examples below. If you want to execute the examples on your
 own computer, please see the installation instructions [below](#installation-instructions).
@@ -56,36 +56,36 @@ the [Cantera website](https://cantera.org/install/index.html).
 ### 2. Install Jupyter Notebook
 
 If you used Conda to install Cantera (the recommended method), you will
-need to install the Jupyter Notebook into the same environment where you
+need to install Jupyter Lab into the same environment where you
 installed Cantera.
 
-1. Activate the environment with the Cantera package (called `spam` here):
+1. Activate the environment with the Cantera package (called `cantera` here):
 
    ```shell
-   conda activate spam
+   conda activate cantera
    ```
 
 2. Install Jupyter Notebook into that environment
 
    ```shell
-   conda install notebook
+   conda install jupyterlab
    ```
 
-3. Run the Jupyter notebook
+3. Run Jupyter Lab, which will open a browser window
 
    ```shell
-   jupyter notebook
+   jupyter lab
    ```
 
-Otherwise, use `pip` to install the Jupyter Notebook
+Otherwise, use `pip` to install the Jupyter Notebook:
 
 ```shell
-python -m pip install notebook
+python -m pip install jupyterlab
 ```
 
 ### 3. Download the Cantera Jupyter Examples
 
-**Option 1:** Download the zip file from [GitHub](https://github.com/Cantera/cantera-jupyter/archive/master.zip)
+**Option 1:** Download the zip file from [GitHub](https://github.com/Cantera/cantera-jupyter/archive/main.zip)
 and extract it to a convenient location on your computer.
 
 **Option 2:** Use Git to clone this repository to a convenient location on your computer
@@ -112,7 +112,7 @@ advanced uses of Cantera, the complete documentation can be found
 **Can I forgo installing Cantera locally and just use Cantera in the cloud every
 time?**
 
-The problem with using Cantera with Binder is that there is no way for you to
+The problem with using Cantera with MyBinder is that there is no way for you to
 save your work. You can upload/download files in a session, but once the session
 is over (you close your browser window), you lose all your work. You thus cannot
 save your modified Jupyter notebooks.

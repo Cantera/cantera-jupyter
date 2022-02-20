@@ -3,3 +3,4 @@
 .python-version
 .vscode/
 *.nbconvert.ipynb
+reactors/reaction_paths.*

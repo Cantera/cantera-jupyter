@@ -31,20 +31,21 @@ the changed files from there).
 </table>
 
 * Basic Thermodynamics Calculations
-  * [Fuel heating value calculator](https://github.com/Cantera/cantera-jupyter/blob/master/thermo/heating_value.ipynb)
-  * [Equilibrium flame temperature calculator](https://github.com/Cantera/cantera-jupyter/blob/master/thermo/flame_temperature.ipynb)
+  * [Fuel heating value calculator](https://github.com/Cantera/cantera-jupyter/blob/main/thermo/heating_value.ipynb)
+  * [Equilibrium flame temperature calculator](https://github.com/Cantera/cantera-jupyter/blob/main/thermo/flame_temperature.ipynb)
+  * [Equation of State Comparison: Ideal, Redlich-Kwong, and Helmholtz Energy](https://github.com/Cantera/cantera-jupyter/blob/main/thermo/equations_of_state.ipynb)
 
 * Flame Simulations
-  * [Flame speed calculator with sensitivity analysis](https://github.com/Cantera/cantera-jupyter/blob/master/flames/flame_speed_with_sensitivity_analysis.ipynb)
-  * [Counter-flow twin premixed flame simulator](https://github.com/Cantera/cantera-jupyter/blob/master/flames/twin_premixed_flame_axisymmetric.ipynb)
+  * [Flame speed calculator with sensitivity analysis](https://github.com/Cantera/cantera-jupyter/blob/main/flames/flame_speed_with_sensitivity_analysis.ipynb)
+  * [Counter-flow twin premixed flame simulator](https://github.com/Cantera/cantera-jupyter/blob/main/flames/twin_premixed_flame_axisymmetric.ipynb)
 
 * Reactor Models
-  * [Batch Reactors: Illustration of ignition delay calculation](https://github.com/Cantera/cantera-jupyter/blob/master/reactors/batch_reactor_ignition_delay_NTC.ipynb)
-    * [Batch reactors with non-ideal gases](https://github.com/Cantera/cantera-jupyter/blob/master/reactors/NonIdealShockTube.ipynb)
-  * [Continuous Reactors: Simulations at a given residence time](https://github.com/Cantera/cantera-jupyter/blob/master/reactors/stirred_reactor.ipynb)
+  * [Batch Reactors: Illustration of ignition delay calculation](https://github.com/Cantera/cantera-jupyter/blob/main/reactors/batch_reactor_ignition_delay_NTC.ipynb)
+  * [Batch reactors with non-ideal gases](https://github.com/Cantera/cantera-jupyter/blob/main/reactors/NonIdealShockTube.ipynb)
+  * [Continuous Reactors: Simulations at a given residence time](https://github.com/Cantera/cantera-jupyter/blob/main/reactors/stirred_reactor.ipynb)
 
 * Electrochemistry
-  * [Open circuit voltage calculations in a Lithium ion battery](https://github.com/Cantera/cantera-jupyter/blob/master/electrochemistry/lithium_ion_battery.ipynb)
+  * [Open circuit voltage calculations in a Lithium ion battery](https://github.com/Cantera/cantera-jupyter/blob/main/electrochemistry/lithium_ion_battery.ipynb)
 
 ## Installation Instructions
 
@@ -97,7 +98,7 @@ git clone https://github.com/Cantera/cantera-jupyter.git
 ## Code of Conduct
 
 This repository follows the same code of conduct as the main Cantera repository.
-Cantera adheres to a [code of conduct](https://github.com/Cantera/cantera/blob/master/CODE_OF_CONDUCT.md)
+Cantera adheres to a [code of conduct](https://github.com/Cantera/cantera/blob/main/CODE_OF_CONDUCT.md)
 adapted from the [Contributor Covenant code of conduct](https://contributor-covenant.org/).
 
 ## Frequently Asked Questions

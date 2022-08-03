@@ -1,13 +1,10 @@
 description: |-
   Ru-Ba/YSZ mechanism
-  (Barium-Promoted Ruthenium Catalysts on Yittria-Stabilized Zirconia Supports for Ammonia Synthesis, 
-  Z. Zhang, C. Karakaya, R.J. Kee, J. Douglas Way, C. Wolden,
-  ACS Sustainable Chemistry & Engineering, 7:18038 – 18047, 2019)
 
 generator: ck2yaml
 input-files: [chem.inp, therm.dat, tran.dat, surf.inp]
-cantera-version: 2.6.0a2
-date: Fri, 10 Sep 2021 15:32:35 -0600
+cantera-version: 2.6.0
+date: Wed, 03 Aug 2022 14:22:42 -0400
 
 units: {length: cm, time: s, quantity: mol, activation-energy: kJ/mol}
 
@@ -18,9 +15,9 @@ phases:
   species: [H2, NH3, N2, AR]
   transport: mixture-averaged
   state: {T: 300.0, P: 1 atm}
-  kinetics: none
 - name: Ru_surface
   thermo: ideal-surface
+  adjacent-phases: [gas]
   elements: [H, N, Ru, Ar]
   species: [Ru(s), N(s), H(s), NH(s), NH2(s), NH3(s)]
   site-density: 2.6079e-09
@@ -87,9 +84,8 @@ species:
   composition: {Ar: 1}
   thermo:
     model: NASA7
-    temperature-ranges: [300.0, 1000.0, 5000.0]
+    temperature-ranges: [300.0, 5000.0]
     data:
-    - [2.5, 0.0, 0.0, 0.0, 0.0, -745.375, 4.366]
     - [2.5, 0.0, 0.0, 0.0, 0.0, -745.375, 4.366]
     note: |-
       120186
@@ -103,49 +99,43 @@ species:
   composition: {Ru: 1}
   thermo:
     model: NASA7
-    temperature-ranges: [300.0, 1000.0, 5000.0]
+    temperature-ranges: [300.0, 5000.0]
     data:
-    - [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
     - [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 - name: N(s)
   composition: {N: 1, Ru: 1}
   thermo:
     model: NASA7
-    temperature-ranges: [300.0, 1000.0, 5000.0]
+    temperature-ranges: [300.0, 5000.0]
     data:
-    - [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
     - [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 - name: H(s)
   composition: {H: 1, Ru: 1}
   thermo:
     model: NASA7
-    temperature-ranges: [300.0, 1000.0, 5000.0]
+    temperature-ranges: [300.0, 5000.0]
     data:
-    - [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
     - [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 - name: NH(s)
   composition: {N: 1, H: 1, Ru: 1}
   thermo:
     model: NASA7
-    temperature-ranges: [300.0, 1000.0, 5000.0]
+    temperature-ranges: [300.0, 5000.0]
     data:
-    - [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
     - [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 - name: NH2(s)
   composition: {H: 2, N: 1, Ru: 1}
   thermo:
     model: NASA7
-    temperature-ranges: [300.0, 1000.0, 5000.0]
+    temperature-ranges: [300.0, 5000.0]
     data:
-    - [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
     - [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 - name: NH3(s)
   composition: {H: 3, N: 1, Ru: 1}
   thermo:
     model: NASA7
-    temperature-ranges: [300.0, 1000.0, 5000.0]
+    temperature-ranges: [300.0, 5000.0]
     data:
-    - [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
     - [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 
 reactions:

@@ -2,7 +2,12 @@ name: cantera-latest
 channels:
   - cantera
   - cantera/label/dev
+  - conda-forge
 dependencies:
   - cantera
   - matplotlib
   - pandas
+  - scipy
+  - seaborn
+  - coolprop
+  - scikits.odes

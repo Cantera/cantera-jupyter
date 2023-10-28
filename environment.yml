@@ -11,3 +11,4 @@ dependencies:
   - seaborn
   - coolprop
   - scikits.odes
+  - python-graphviz

@@ -1,7 +1,5 @@
-name: cantera-latest
+name: cantera-latest-release
 channels:
-  - cantera
-  - cantera/label/dev
   - conda-forge
 dependencies:
   - cantera

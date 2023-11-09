@@ -8,5 +8,5 @@ dependencies:
   - scipy
   - seaborn
   - coolprop
-  - scikits.odes
   - python-graphviz
+  - ipywidgets

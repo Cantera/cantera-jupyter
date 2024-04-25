@@ -10,6 +10,18 @@ the changed files from there).
 
 [![MyBinder](https://mybinder.org/badge.svg)](https://mybinder.org:/repo/cantera/cantera-jupyter)
 
+## 🚨 This repository is deprecated 🚨
+
+While the examples here are still valid for Cantera 3.0, for Cantera 3.1, all of these
+examples have been migrated into the main repository as pure Python scripts that are then
+rendered by [Sphinx Gallery](https://sphinx-gallery.github.io). You can see the gallery
+of Python examples for the current development version of Cantera at 
+https://cantera.org/dev/examples/python/index.html.
+
+If you would like to contribute a new Cantera example, please write it as a pure Python example
+like those in https://github.com/Cantera/cantera/tree/main/samples/python and open a Pull Request
+to the main Cantera repository. This repository will be archived after the release of Cantera 3.1.
+
 ## Examples
 
 <table align="center">

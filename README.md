@@ -1,26 +1,15 @@
 # cantera-jupyter
 
-[Cantera](https://cantera.org) examples in the form of [Jupyter](https://jupyter.org)
-notebooks. To see the rendered notebooks, browse the directories above or visit the
-links in the list of examples below. If you want to execute the examples on your
-own computer, please see the installation instructions [below](#installation-instructions).
-If you would only like to run the examples in the cloud, click the MyBinder
-link below (note that your changes on MyBinder won't be saved unless you download
-the changed files from there).
+## 🚨 This repository is obsolete! 🚨
 
-[![MyBinder](https://mybinder.org/badge.svg)](https://mybinder.org:/repo/cantera/cantera-jupyter)
-
-## 🚨 This repository is deprecated 🚨
-
-While the examples here are still valid for Cantera 3.0, for Cantera 3.1, all of these
-examples have been migrated into the main repository as pure Python scripts that are then
-rendered by [Sphinx Gallery](https://sphinx-gallery.github.io). You can see the gallery
-of Python examples for the current development version of Cantera at 
-https://cantera.org/dev/examples/python/index.html.
+Starting with Cantera 3.1, all of these examples have been migrated into the main repository as
+pure Python scripts that are then rendered by [Sphinx Gallery](https://sphinx-gallery.github.io).
+You can see the gallery of Python examples for the current version of Cantera at 
+https://cantera.org/stable/examples/python/index.html.
 
 If you would like to contribute a new Cantera example, please write it as a pure Python example
 like those in https://github.com/Cantera/cantera/tree/main/samples/python and open a Pull Request
-to the main Cantera repository. This repository will be archived after the release of Cantera 3.1.
+to the main Cantera repository (https://github.com/Cantera/cantera).
 
 ## Examples
 
